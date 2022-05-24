@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:dboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
-U 1 1 5FEAF32E
-P 1900 2100
-F 0 "USB1" V 1200 2100 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" V 1300 2100 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 1900 2100 60  0001 C CNN
-F 3 "" H 1900 2100 60  0001 C CNN
-	1    1900 2100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Power_Protection:SRV05-4 U1
 U 1 1 5FEAF7BF
@@ -50,18 +38,6 @@ F 4 "C70076" H 3700 1850 50  0001 C CNN "jlc"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 5FEB0819
-P 2150 1850
-F 0 "R1" V 2050 1850 50  0000 C CNN
-F 1 "5.1K" V 2150 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 1850 50  0001 C CNN
-F 3 "~" H 2150 1850 50  0001 C CNN
-F 4 "C23186" H 2150 1850 50  0001 C CNN "jlc"
-	1    2150 1850
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5FEB0B27
 P 2150 3200
@@ -71,28 +47,6 @@ F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 3050 50  0001 C CNN
 F 3 "~" H 2150 3200 50  0001 C CNN
 F 4 "C13967" H 2150 3200 50  0001 C CNN "jlc"
 	1    2150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5FEB1045
-P 4950 2450
-F 0 "H2" H 5050 2499 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 2408 50  0000 L CNN
-F 2 "crokto:M3_Via_Hole" H 4950 2450 50  0001 C CNN
-F 3 "~" H 4950 2450 50  0001 C CNN
-	1    4950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5FEB1323
-P 4950 2200
-F 0 "H1" H 5050 2246 50  0000 L CNN
-F 1 "MountingHole" H 5050 2155 50  0000 L CNN
-F 2 "crokto:M3_Via_Hole_NC" H 4950 2200 50  0001 C CNN
-F 3 "~" H 4950 2200 50  0001 C CNN
-	1    4950 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -107,107 +61,13 @@ F 4 "C17927" H 1850 3200 50  0001 C CNN "jlc"
 	1    1850 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 5FEB5827
-P 2150 2450
-F 0 "R2" V 2050 2450 50  0000 C CNN
-F 1 "5.1K" V 2150 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 2450 50  0001 C CNN
-F 3 "~" H 2150 2450 50  0001 C CNN
-F 4 "C23186" H 2150 2450 50  0001 C CNN "jlc"
-	1    2150 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5FEB5F41
-P 2300 1850
-F 0 "#PWR05" H 2300 1600 50  0001 C CNN
-F 1 "GND" V 2305 1722 50  0000 R CNN
-F 2 "" H 2300 1850 50  0001 C CNN
-F 3 "" H 2300 1850 50  0001 C CNN
-	1    2300 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 5FEB67AD
-P 2300 2450
-F 0 "#PWR07" H 2300 2200 50  0001 C CNN
-F 1 "GND" V 2305 2322 50  0000 R CNN
-F 2 "" H 2300 2450 50  0001 C CNN
-F 3 "" H 2300 2450 50  0001 C CNN
-	1    2300 2450
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 2000 2350
-NoConn ~ 2000 1750
-$Comp
-L power:VBUS #PWR03
-U 1 1 5FEB882F
-P 2400 1650
-F 0 "#PWR03" H 2400 1500 50  0001 C CNN
-F 1 "VBUS" H 2415 1823 50  0000 C CNN
-F 2 "" H 2400 1650 50  0001 C CNN
-F 3 "" H 2400 1650 50  0001 C CNN
-	1    2400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5FEBA6B3
-P 2000 1550
-F 0 "#PWR02" H 2000 1300 50  0001 C CNN
-F 1 "GND" V 2005 1422 50  0000 R CNN
-F 2 "" H 2000 1550 50  0001 C CNN
-F 3 "" H 2000 1550 50  0001 C CNN
-	1    2000 1550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2400 1650 2000 1650
 Text GLabel 4200 2650 2    50   Input ~ 0
 D+
 Text GLabel 3200 2850 0    50   Input ~ 0
 D-
 Wire Wire Line
-	2000 1950 2100 1950
-Wire Wire Line
-	2100 1950 2100 2150
-Wire Wire Line
-	2100 2150 2000 2150
-Wire Wire Line
-	2000 2050 2200 2050
-Wire Wire Line
-	2200 2050 2200 2250
-Wire Wire Line
-	2200 2250 2000 2250
-$Comp
-L power:VBUS #PWR08
-U 1 1 5FEBC392
-P 2000 2550
-F 0 "#PWR08" H 2000 2400 50  0001 C CNN
-F 1 "VBUS" V 2015 2678 50  0000 L CNN
-F 2 "" H 2000 2550 50  0001 C CNN
-F 3 "" H 2000 2550 50  0001 C CNN
-	1    2000 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5FEBCD1D
-P 2000 2650
-F 0 "#PWR09" H 2000 2400 50  0001 C CNN
-F 1 "GND" V 2005 2522 50  0000 R CNN
-F 2 "" H 2000 2650 50  0001 C CNN
-F 3 "" H 2000 2650 50  0001 C CNN
-	1    2000 2650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	1850 3350 2150 3350
-Text GLabel 2000 2750 2    50   Input ~ 0
+Text GLabel 1550 2550 3    50   Input ~ 0
 SHIELD
 $Comp
 L power:GND #PWR010
@@ -256,20 +116,13 @@ F 3 "" H 3700 3250 50  0001 C CNN
 $EndComp
 Text GLabel 4950 2550 3    50   Input ~ 0
 SHIELD
-Text GLabel 2100 1950 2    50   Input ~ 0
-D-
-Text GLabel 2250 2050 2    50   Input ~ 0
-D+
 NoConn ~ 3200 2650
 NoConn ~ 4200 2850
-Wire Wire Line
-	2200 2050 2250 2050
-Connection ~ 2200 2050
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR0103
 U 1 1 6002061A
 P 3450 1850
-F 0 "#PWR?" H 3450 1700 50  0001 C CNN
+F 0 "#PWR0103" H 3450 1700 50  0001 C CNN
 F 1 "VBUS" H 3465 2023 50  0000 C CNN
 F 2 "" H 3450 1850 50  0001 C CNN
 F 3 "" H 3450 1850 50  0001 C CNN
@@ -293,7 +146,7 @@ U 1 1 5FEC6F34
 P 6600 2300
 F 0 "J1" V 6850 2250 50  0000 C CNN
 F 1 "JST_SH_SM04B-SRSS-TB_1x04" V 6750 2250 50  0000 C CNN
-F 2 "crokto:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6600 2300 50  0001 C CNN
+F 2 "random-keyboard-parts:JST-SR-4" H 6600 2300 50  0001 C CNN
 F 3 "~" H 6600 2300 50  0001 C CNN
 	1    6600 2300
 	1    0    0    -1  
@@ -320,9 +173,9 @@ F 3 "" H 6400 2200 50  0001 C CNN
 	1    6400 2200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 2300 0    50   Input ~ 0
-D+
 Text GLabel 6400 2400 0    50   Input ~ 0
+D+
+Text GLabel 6400 2300 0    50   Input ~ 0
 D-
 Text Notes 1500 3700 0    50   ~ 0
 USB Connector
@@ -331,5 +184,122 @@ ESD & Fuse
 Text Notes 4950 3700 0    50   ~ 0
 Mounting Holes
 Text Notes 6200 3700 0    50   ~ 0
-JST Connector\n(not compatible with UDB)
+JST Connector\n(compatible with UDB)
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6102D8A1
+P 4950 2100
+F 0 "H1" H 5050 2146 50  0000 L CNN
+F 1 "MountingHole" H 5050 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4950 2100 50  0001 C CNN
+F 3 "~" H 4950 2100 50  0001 C CNN
+	1    4950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6102E714
+P 4950 2450
+F 0 "H2" H 5050 2499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5050 2408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 4950 2450 50  0001 C CNN
+F 3 "~" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 61037EB0
+P 1850 1650
+F 0 "J2" H 1957 2517 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1957 2426 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2000 1650 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2000 1650 50  0001 C CNN
+	1    1850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1050 2450 1050
+$Comp
+L power:VBUS #PWR03
+U 1 1 5FEB882F
+P 2850 1050
+F 0 "#PWR03" H 2850 900 50  0001 C CNN
+F 1 "VBUS" H 2865 1223 50  0000 C CNN
+F 2 "" H 2850 1050 50  0001 C CNN
+F 3 "" H 2850 1050 50  0001 C CNN
+	1    2850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FEB5F41
+P 2750 1200
+F 0 "#PWR05" H 2750 950 50  0001 C CNN
+F 1 "GND" V 2755 1072 50  0000 R CNN
+F 2 "" H 2750 1200 50  0001 C CNN
+F 3 "" H 2750 1200 50  0001 C CNN
+	1    2750 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FEB0819
+P 2600 1200
+F 0 "R1" V 2500 1200 50  0000 C CNN
+F 1 "5.1K" V 2600 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 1200 50  0001 C CNN
+F 3 "~" H 2600 1200 50  0001 C CNN
+F 4 "C23186" H 2600 1200 50  0001 C CNN "jlc"
+	1    2600 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FEB5827
+P 2600 1400
+F 0 "R2" V 2500 1400 50  0000 C CNN
+F 1 "5.1K" V 2600 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 1400 50  0001 C CNN
+F 3 "~" H 2600 1400 50  0001 C CNN
+F 4 "C23186" H 2600 1400 50  0001 C CNN "jlc"
+	1    2600 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FEB67AD
+P 2750 1400
+F 0 "#PWR07" H 2750 1150 50  0001 C CNN
+F 1 "GND" V 2755 1272 50  0000 R CNN
+F 2 "" H 2750 1400 50  0001 C CNN
+F 3 "" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2450 1750 2    50   Input ~ 0
+D+
+Text GLabel 2450 1650 2    50   Input ~ 0
+D-
+Wire Wire Line
+	2450 1550 2450 1650
+$Comp
+L power:GND #PWR0104
+U 1 1 610A8156
+P 1850 2550
+F 0 "#PWR0104" H 1850 2300 50  0001 C CNN
+F 1 "GND" V 1855 2422 50  0000 R CNN
+F 2 "" H 1850 2550 50  0001 C CNN
+F 3 "" H 1850 2550 50  0001 C CNN
+	1    1850 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2450 2250
+NoConn ~ 2450 2150
+Wire Wire Line
+	2450 1250 2450 1200
+Wire Wire Line
+	2450 1400 2450 1350
+Wire Wire Line
+	2450 1850 2450 1750
 $EndSCHEMATC

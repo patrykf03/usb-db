@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name choc2)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/choc2.pretty)(options "")(descr ""))
-  (lib (name crokto)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/crokto.pretty)(options "")(descr ""))
-  (lib (name switches)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/switches.pretty)(options "")(descr ""))
-  (lib (name Type-C)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/tight65/tight65/libs/Type-C.pretty)(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "/home/patryk/kicad/libs/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "panelization")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty/")(options "")(descr ""))
+  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/libs/Type-C.pretty")(options "")(descr ""))
+  (lib (name "pcbart")(type "KiCad")(uri "/home/patryk/kicad/libs/pcbart.pretty")(options "")(descr ""))
 )
