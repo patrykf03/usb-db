@@ -1,0 +1,7 @@
+470n,C1,Capacitor_SMD:C_0805_2012Metric,C13967
+USB_C_Receptacle_USB2.0,J2,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948
+1M,R3,Resistor_SMD:R_1206_3216Metric,C17927
+5.1K,"R1,R2",Resistor_SMD:R_0603_1608Metric,C23186
+500mA,F1,Fuse:Fuse_1206_3216Metric,C355568
+SRV05-4,U1,Package_TO_SOT_SMD:SOT-23-6,C85364
+Comment,Designator,Footprint,LCSC

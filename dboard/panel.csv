@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**";"NPTH";16;"NPTH";;;
+2;"H1";"MountingHole_2.2mm_M2_DIN965_Pad";1;"MountingHole";;;
+3;"H2";"MountingHole_2.2mm_M2_DIN965_Pad";1;"MountingHole_Pad";;;
+4;"Ref**";"tt_4mm";1;"Val**";;;
+5;"U1";"SOT-23-6";1;"SRV05-4";;;
+6;"F1";"Fuse_1206_3216Metric";1;"500mA";;;
+7;"C1";"C_0805_2012Metric";1;"470n";;;
+8;"R3";"R_1206_3216Metric";1;"1M";;;
+9;"R2,R1";"R_0603_1608Metric";2;"5.1K";;;
+10;"J2";"USB_C_Receptacle_HRO_TYPE-C-31-M-12";1;"USB_C_Receptacle_USB2.0";;;
+11;"J1";"JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal";1;"JST_SH_SM04B-SRSS-TB_1x04";;;
